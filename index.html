@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title> National Plastics</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- line awesome -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- Image Uploader -->
+    <link rel="stylesheet" href="assets/css/image-uploader.min.css">
+    <!-- jQuery Ui Css -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+
+    <!--==================== Preloader Start ====================-->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- ==================== Mobile Menu Start Here ==================== -->
+    <div class="mobile-menu d-lg-none d-block">
+        <button type="button" class="close-button"> <i class="las la-times"></i> </button>
+        <div class="mobile-menu__inner">
+            <a href="index.html" class="mobile-menu__logo">
+                <img src="assets/images/logo/logo.png" alt="Logo">
+            </a>
+            <div class="mobile-menu__menu">
+
+                <ul class="nav-menu flx-align nav-menu--mobile">
+                    <li class="nav-menu__item activePage">
+                        <a href="index.html" class="nav-menu__link">Home</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="products.html" class="nav-menu__link">Products</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="contact.html" class="nav-menu__link">About</a>
+                    </li>
+
+                    <li class="nav-menu__item">
+                        <a href="contact.html" class="nav-menu__link">Contact US</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- ==================== Mobile Menu End Here ==================== -->
+
+
+    <!-- ==================== Right Offcanvas Start Here ==================== -->
+    <div class="common-offcanvas d-lg-block d-none">
+        <div class="flx-between">
+            <a href="index.html" class="mobile-menu__logo">
+                <img src="assets/images/logo/white-logo.png" alt="Logo">
+            </a>
+            <button type="button" class="close-button d-flex position-relative top-0 end-0"> <i
+                    class="las la-times"></i> </button>
+        </div>
+
+        <div class="search-box mt-5">
+            <form action="#">
+                <input type="text" class="common-input common-input--light" placeholder="Search...">
+                <button type="submit" class="icon"> <i class="fas fa-search"></i> </button>
+            </form>
+        </div>
+
+        <ul class="address-list mt-5">
+            <li class="address-list__item flx-align">
+                <span class="address-list__icon"><i class="fas fa-map-marker-alt"></i></span>
+                <div class="address-list__content">
+                    <p class="address-list__text">Burmsille Street, MN 55337, <br> United States</p>
+                </div>
+            </li>
+            <li class="address-list__item flx-align">
+                <span class="address-list__icon"> <i class="fas fa-phone"></i></span>
+                <div class="address-list__content">
+                    <a href="tel:" class="address-list__text">+(1) 123 456 7890 </a>
+                    <a href="tel:" class="address-list__text">+(1) 098 765 4321 </a>
+                </div>
+            </li>
+            <li class="address-list__item flx-align">
+                <span class="address-list__icon"> <i class="fas fa-envelope"></i></span>
+                <div class="address-list__content">
+                    <a href="mailto:" class="address-list__text"> info@driller.com</a>
+                    <a href="mailto:" class="address-list__text">info.example@driller.com</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="google-map mt-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
+                loading="lazy" class="w-100 h-100"></iframe>
+        </div>
+
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://www.facebook.com/" class="social-list__link flx-center"><i
+                        class="fab fa-facebook-f"></i></a> </li>
+            <li class="social-list__item"><a href="https://www.twitter.com/" class="social-list__link flx-center"> <i
+                        class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item"><a href="https://www.linkedin.com/" class="social-list__link flx-center"> <i
+                        class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-list__item"><a href="https://www.pinterest.com/" class="social-list__link flx-center"> <i
+                        class="fab fa-instagram"></i></a></li>
+        </ul>
+
+    </div>
+    <!-- ==================== Right Offcanvas End Here ==================== -->
+
+
+
+    <main class="body-bg">
+        <!-- ==================== Header Top Start Here ==================== -->
+        <div class="header-top">
+            <div class="container container-two">
+                <div class="flx-between">
+                    <div class="header-info flx-align">
+                        <div class="header-info__item flx-align">
+                            <span class="header-info__icon"><i class="fas fa-phone"></i></span>
+                            <a href="tel:" class="header-info__text">+91 9496074366 | 7034531164</a>
+                        </div>
+                        <div class="header-info__item flx-align">
+                            <span class="header-info__icon"><i class="fas fa-envelope"></i></span>
+                            <a href="mailto:" class="header-info__text">nationalplasticsindustries@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="header-info flx-align d-sm-block d-none">
+                        <div class="header-info__item flx-align">
+                            <span class="header-info__icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="header-info__text">Perumbavoor, Ernaakulam, Kerala - 683 543</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Header Top End Here ==================== -->
+        <!-- ==================== Header Start Here ==================== -->
+        <header class="header">
+            <div class="container container-two">
+                <nav class="header-inner flx-between">
+                    <!-- Logo Start -->
+                    <div class="logo">
+                        <a href="index.html" class="link">
+                            <img src="assets/images/logo/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- Logo End  -->
+
+                    <!-- Menu Start  -->
+                    <div class="header-menu d-lg-block d-none">
+
+                        <ul class="nav-menu flx-align ">
+                            <li class="nav-menu__item activePage">
+                                <a href="index.html" class="nav-menu__link">Home</a>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="products.html" class="nav-menu__link">Products</a>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="contact.html" class="nav-menu__link">About</a>
+                            </li>
+
+                            <li class="nav-menu__item">
+                                <a href="contact.html" class="nav-menu__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Menu End  -->
+
+                    <!-- Header Right start -->
+                    <div class="header-right flx-align d-lg-none">
+                        <button type="button" class="toggle-mobileMenu d-lg-none ms-3"> <i class="las la-bars"></i>
+                        </button>
+                    </div>
+                    <!-- Header Right End  -->
+                </nav>
+            </div>
+        </header>
+        <!-- ==================== Header End Here ==================== -->
+
+        <!--========================== Banner Section Start ==========================-->
+        <section class="banner">
+            <div class="container container-two">
+                <div class="position-relative">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="banner-inner position-relative">
+                                <div class="banner-content">
+                                    <!-- <span class="banner-content__subtitle text-uppercase font-14">National
+                                        Plastics</span> -->
+                                    <h1 class="banner-content__title "> <span>Welcome To </span> <span
+                                            class="text-gradient">National
+                                            Plastic Industries.</span> </h1>
+                                    <p class="banner-content__desc font-18">National Plastics, one of the high quality
+                                        plastic manufacturing industry in Kerala was established in 2005. Ever since its
+                                        arrival it has brought accolades globally and has satisfied the market and the
+                                        consumer piously by adapting to the ever-changing consumer needs and demands.
+                                        With its products spanning almost all of the household plastic inventory.
+                                        The company has ensured quality in each and very produce. The goal is to
+                                        revolutionise the market with high quality in demand products at the most
+                                        fairest of prices. The company has also been keen on global impact of plastic
+                                        and has been using only the most eco-friendly technologies to
+                                        ensure sustainability.
+                                    </p>
+                                    <div class="about-button">
+                                        <a href="products.html" class="btn btn-main">Explore Our Products <span
+                                                class="icon-right">
+                                                <i class="fas fa-arrow-right"></i> </span> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-0 order-1">
+                            <div class="banner-thumb">
+                                <img src="assets/images/thumbs/banner-img.png" alt="">
+                                <img src="assets/images/shapes/shape-triangle.png" alt="" class="shape-element one">
+                                <img src="assets/images/shapes/shape-square.png" alt="" class="shape-element two">
+
+                                <!-- <img src="assets/images/shapes/shape-circle.png" alt="" class="shape-element two"> -->
+                                <img src="assets/images/shapes/shape-circle.png" alt="" class="shape-element three">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================== Banner Section End ==========================-->
+
+        <!-- ======================== About Section Start ========================== -->
+        <section class="property-type padding-y-120">
+            <div class="container container-two">
+                <!-- <div class="col-lg-6">
+                        <div class="about-thumb">
+                            <img src="assets/images/thumbs/about-img.png" alt="">
+                            <div class="client-statistics flx-align">
+                                <span class="client-statistics__icon">
+                                    <i class="fas fa-users text-gradient"></i>
+                                </span>
+                                <div class="client-statistics__content">
+                                    <h5 class="client-statistics__number statisticsCounter">4,000+</h5>
+                                    <span class="client-statistics__text fs-18">Satisfied Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-heading style-left">
+                                <span class="section-heading__subtitle"> <span class="text-gradient fw-semibold">About
+                                        Us</span> </span>
+                                <h2 class="section-heading__title">Stay with us feel at home Your perfect stay awaits
+                                </h2>
+                                <p class="section-heading__desc">Real Estate is a vast industry that deals with the
+                                    buying, selling, and renting of properties. It inv transactions related to
+                                    residential</p>
+                            </div>
+                            <div class="about-box d-flex">
+                                <div class="about-box__icon">
+                                    <img src="assets/images/icons/about-icon.svg" alt="">
+                                </div>
+                                <div class="about-box__content">
+                                    <h6 class="about-box__title">Your Dream Home Awaits</h6>
+                                    <p class="about-box__desc font-13">Real Estate is a vast industry that deals with
+                                        the buying, selling, and renting of properties. It inv transactions related to
+                                        residential, commercial, and industrial properties</p>
+                                </div>
+                            </div>
+                            <div class="about-button">
+                                <a href="#" class="btn btn-main">Learn More <span class="icon-right"> <i
+                                            class="fas fa-arrow-right"></i> </span> </a>
+                            </div>
+                        </div>
+                    </div> -->
+                <div class="section-heading style-center style-white  align-items-start gap-3">
+                    <div class="section-heading__inner">
+
+                        <h2 class="section-heading__title">View Our Range Of Categories</h2>
+                    </div>
+
+                </div>
+                <div class="row align-items-center justify-content-center">
+
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb">
+                                <img src="assets/images/thumbs/gallery1.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category  gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Containers</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb">
+                                <img src="assets/images/thumbs/gallery2.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Dining</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb ">
+                                <img src="assets/images/thumbs/gallery3.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Kitchen Utilities</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb ">
+                                <img src="assets/images/thumbs/gallery4.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Laundry</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb ">
+                                <img src="assets/images/thumbs/gallery5.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Pots</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb ">
+                                <img src="assets/images/thumbs/gallery6.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Stools</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="latest-blog ">
+                            <div class="latest-blog__thumb">
+                                <img src="assets/images/thumbs/gallery7.png" class="cover-img" alt="">
+                            </div>
+                            <div class="latest-blog__content">
+                                <span class="latest-blog__category   gap-1">
+
+                                    <h6 class="latest-blog__title">
+                                        <a>Storage Utilities</a>
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ======================== About Section End ========================== -->
+        <!-- ============================ property Start ==================== -->
+        <section class="property padding-y-120">
+            <div class="container container-two">
+
+                <div class="section-heading style-left style-white flx-between align-items-end gap-3">
+                    <div class="section-heading__inner">
+                        <span class="section-heading__subtitle"> <span class="text-gradient fw-semibold">Most Popular
+                                Products</span> </span>
+                        <h2 class="section-heading__title">National plastic products for you</h2>
+                    </div>
+                    <a href="products.html" class="btn btn-main">View More <span class="icon-right"> <i
+                                class="fas fa-arrow-right"></i> </span> </a>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/containers/10000ml/orange.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Design Container 10000ml
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-orange mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-light-green" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-pink mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-light-blue " style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Dining/Bowl 250ml/group.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Bowl
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-red  border border-danger" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-pink  border border-pink mx-2"
+                                            style="width: 20px; height: 20px;">
+                                        </div>
+                                        <!-- Adding margin for spacing -->
+                                        <div class="bg-light  border border-gray" style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Dining/Lilly Bowl/Big/sky blue.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Lilly Bowl Big
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+
+                                        <div class="bg-light-blue " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-orange mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-pink " style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Kitchen Utencils/stand round/3 Step/blue and red.jpg"
+                                    alt="" class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Round Stand 3 Step
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-blue " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-red " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-orange mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-red" style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Laundry/Daliya Basket/blue.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Daliya Basket
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-light-blue mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-red " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-cyan mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-orange " style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Pots/Plant Pot/Big/black.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Plant Pots Big
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-black  " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-dark-red mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Stool/Kitchen Stool/green.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Kitchen Stool
+                                    </a> </h6>
+                                <div>Colours :</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex">
+                                        <div class="bg-blue " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-dark-green   mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <!-- Adding margin for spacing -->
+                                        <div class="bg-red 2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-dark mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-light-green   " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <!-- Adding margin for spacing -->
+                                        <div class="bg-orange mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-dark-red" style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="property-item">
+                            <div class="property-item__thumb">
+
+                                <img src="assets/images/products/Laundry/Vatta Tub/cyan.jpg" alt=""
+                                    class="cover-img-product">
+                            </div>
+                            <div class="property-item__content">
+                                <!--  -->
+                                <h6 class="property-item__title"> <a class="link">Vatta Tub
+                                    </a> </h6>
+                                <div class="d-flex align-items-center">
+                                    <div>Colours :</div>
+                                    <div class="d-flex">
+                                        <div class="bg-cyan  " style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-red mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <!-- Adding margin for spacing -->
+                                        <div class="bg-blue" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <div class="bg-orange mx-2" style="width: 20px; height: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="text-center property__btn">
+                    <a href="#" class="btn btn-main"> See All Listing <span class="icon-right"> <i
+                                class="fas fa-arrow-right"></i> </span> </a>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ========================= Message Section Start ======================== -->
+        <section class="message mb-40">
+            <div class="container container-two">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="message-thumb">
+                            <img src="assets/images/thumbs/message-img.png" alt="" class="cover-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-box">
+                            <h2 class="form-box__title">Get A Quote </h2>
+                            <form action="#">
+                                <div class="row gy-30">
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="position-relative">
+                                            <input type="text" class="common-input common-input--withIcon"
+                                                placeholder="Name">
+                                            <span class="input-icon"><i class="fas fa-user"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="position-relative">
+                                            <input type="tel" class="common-input common-input--withIcon"
+                                                placeholder="Your Phone">
+                                            <span class="input-icon"><i class="fas fa-phone"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="position-relative">
+                                            <input type="email" class="common-input common-input--withIcon"
+                                                placeholder="Your Email">
+                                            <span class="input-icon"><i class="fas fa-paper-plane"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="position-relative">
+                                            <input type="text" class="common-input common-input--withIcon"
+                                                placeholder="Your Address">
+                                            <span class="input-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="position-relative">
+                                            <textarea class="common-input common-input--withIcon"
+                                                placeholder="Write Message.."></textarea>
+                                            <span class="input-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <button type="submit" class="btn btn-main w-100"> Send Message </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= Message Section End ======================== -->
+
+
+        <!-- ==================== Footer Two Start Here ==================== -->
+        <footer class="footer footer-two padding-y-120">
+            <div class="container container-two">
+                <div class="row gy-5">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="footer-item">
+                            <div class="footer-item__logo">
+                                <a href="index.html"> <img src="assets/images/logo/white-logo.png" alt=""></a>
+                            </div>
+                            <p class="footer-item__desc">National Plastics, one of the high quality plastic
+                                manufacturing industry in Kerala was established in 2005.
+                            </p>
+
+                            <h6 class="footer-item__title mt-4 mt-lg-5">Connect With Us</h6>
+                            <div class="row gy-4">
+                                <div class="col-5">
+                                    <div class="contact-info d-flex gap-2">
+                                        <span class="contact-info__icon text-gradient"><i
+                                                class="fas fa-map-marker-alt"></i></span>
+                                        <div class="contact-info__content">
+                                            <span class="contact-info__text text-white">Address</span>
+                                            <span class="contact-info__address text-white">XXI / 84 A, Rayonpuram
+                                                P.O, Perumbavoor, Ernaakulam (D), Kerala - 683 543</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-7">
+                                    <div class="contact-info d-flex gap-2">
+                                        <span class="contact-info__icon text-gradient"><i
+                                                class="fas fa-phone"></i></span>
+                                        <div class="contact-info__content">
+                                            <span class="contact-info__text text-white">Phone Number</span>
+                                            <span class="contact-info__address text-white">7034 531 164</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-info d-flex gap-2">
+                                        <span class="contact-info__icon text-gradient"><i
+                                                class="fas fa-envelope"></i></span>
+                                        <div class="contact-info__content">
+                                            <span class="contact-info__text text-white">Email</span>
+                                            <span class="contact-info__address text-white">
+                                                nationalplasticsindustries@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-1 d-xl-block d-none"></div> -->
+                    <div class="col-xl-2 col-sm-6">
+                        <div class="footer-item">
+                            <h6 class="footer-item__title">Pages</h6>
+                            <ul class="footer-menu">
+                                <li class="footer-menu__item"><a href="index.html" class="footer-menu__link">
+                                        Home</a></li>
+                                <li class="footer-menu__item"><a href="products.html" class="footer-menu__link">
+                                        Products </a></li>
+                                <li class="footer-menu__item"><a href="about.html" class="footer-menu__link">About
+                                    </a></li>
+                                <li class="footer-menu__item"><a href="contact.html" class="footer-menu__link">Contact
+                                        Us
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-1 d-xl-block d-none"></div> -->
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="footer-item">
+                            <h6 class="footer-item__title">Stay Updated with Our Newsletter</h6>
+                            <p class="footer-item__desc">Subscribe to our newsletter to stay informed about the latest
+                                product releases and exclusive offers </p>
+
+                            <form action="#" class="mt-4 subscribe-box">
+                                <div class="input-group">
+                                    <input type="text" class="form-control common-input common-input--md text-white"
+                                        placeholder="Your mail address">
+                                    <button type="submit"
+                                        class="px-4 input-group-text bg--gradient border-0 text-white"><i
+                                            class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </form>
+
+                            <ul class="social-list">
+                                <li class="social-list__item"><a href="https://www.facebook.com/"
+                                        class="social-list__link flx-center"><i class="fab fa-facebook-f"></i></a> </li>
+                                <li class="social-list__item"><a href="https://www.twitter.com/"
+                                        class="social-list__link flx-center"> <i class="fab fa-twitter"></i></a></li>
+                                <li class="social-list__item"><a href="https://www.linkedin.com/"
+                                        class="social-list__link flx-center"> <i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li class="social-list__item"><a href="https://www.pinterest.com/"
+                                        class="social-list__link flx-center"> <i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- bottom Footer -->
+        <div class="bottom-footer">
+            <div class="container container-two">
+                <div class="bottom-footer__inner flx-between gap-3">
+                    <p class="bottom-footer__text"> &copy; National Plastics 2024 | All Rights Reserved.</p>
+                    <div class="footer-links">
+                        <a class="footer-link">Terms & Condition</a>
+                        <a class="footer-link">Privacy Policy</a>
+                        <a href="contact.html" class="footer-link">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Footer Two End Here ==================== -->
+
+    </main>
+
+    <!-- Jquery js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Slick js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Counter Up Js -->
+    <script src="assets/js/counterup.min.js"></script>
+    <!-- Marquee text slider -->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <!-- Image Uploader -->
+    <script src="assets/js/image-uploader.min.js"></script>
+    <!-- jQuery Ui Css -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
